@@ -1,0 +1,25 @@
+@ProjetoVendas.Api_HostAddress = http://localhost:5073
+
+### Obter todas as categorias
+GET {{ProjetoVendas.Api_HostAddress}}/api/categorias
+Accept: application/json
+
+### Obter todos os produtos
+GET {{ProjetoVendas.Api_HostAddress}}/api/produtos
+Accept: application/json
+
+### Obter todas as lojas
+GET {{ProjetoVendas.Api_HostAddress}}/api/lojas
+Accept: application/json
+
+### Obter todos os vendedores
+GET {{ProjetoVendas.Api_HostAddress}}/api/vendedores
+Accept: application/json
+
+### Obter todas as vendas
+GET {{ProjetoVendas.Api_HostAddress}}/api/vendas
+Accept: application/json
+
+### Obter todas as subcategorias
+GET {{ProjetoVendas.Api_HostAddress}}/api/subcategorias
+Accept: application/json
